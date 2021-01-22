@@ -1,0 +1,51 @@
+header{
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.logo-header{
+	font-size: 30px;
+	color:#333333;
+}
+.phone-header{
+	float: right;
+	margin-right: 25px;
+}
+.phone-header li{
+	font-size: 18px;
+	color:black;
+}
+
+li{
+	margin-left: 30px;
+	
+	display: inline-block;
+	
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 16px;
+}
+.get-call-header{
+	color: #909090;
+	margin-top: 4px;
+	font-size: 15px;
+	text-decoration: underline;
+}
+.get-call-header:hover{
+	transition: 1.3s;
+	text-decoration: none;
+	
+}
+.border-bottom a:active, /* активная/посещенная ссылка */
+.border-bottom a{
+	cursor: pointer;
+  text-decoration: none;
+  color: #909090;
+}
+.border-bottom a:hover{ /* при наведении */
+	color:#333333;
+	transition: .7s
+}  
